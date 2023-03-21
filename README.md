@@ -156,3 +156,17 @@ get_weather_data >> process_data
 ```
 
 ## ¿Qué mejoras propondrías a tu solución para siguientes versiones?
+
+1. Parámetros de configuración: Es posible que algunos aspectos de la solución, como la frecuencia de actualización de los datos, necesiten ser configurados. Incluir parámetros de configuración permitirá ajustar la solución sin necesidad de modificar el código.
+
+2. Pruebas automatizadas: Para asegurarse de que la solución funciona correctamente en todo momento, se podrían incluir pruebas automatizadas que validen la funcionalidad de la solución. Esto podría ayudar a detectar errores más rápidamente y garantizar la calidad de la solución.
+
+3. Gestión de dependencias: Si la solución tiene muchas dependencias, es importante asegurarse de que todas estén instaladas y actualizadas. Para hacer esto más fácilmente, se podrían utilizar herramientas como pip o Anaconda.
+
+## ¿Qué aspectos o herramientas considerarías para escalar, organizar y automatizar tu solución?
+
+1. Almacenamiento de datos: Si los datos son grandes o deben ser accesibles por múltiples usuarios, se podría utilizar un sistema de almacenamiento de datos como Apache Hadoop o AWS S3. Esto permitiría escalar la solución para manejar grandes cantidades de datos y hacer que los datos sean más accesibles.
+
+2. Monitoreo: Para asegurarse de que la solución funciona correctamente en todo momento, es importante monitorear su desempeño y detectar problemas en tiempo real.
+
+3. Orquestador de tareas: Para coordinar las diferentes tareas necesarias para obtener y procesar los datos, se podría utilizar un orquestador de tareas como Apache Airflow. Esto permitiría definir y programar las tareas necesarias y controlar su ejecución.
